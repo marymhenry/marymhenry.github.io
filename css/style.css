@@ -138,6 +138,7 @@ h3 {
 }
 .footerGridArea {
     display: grid;
+    cursor: pointer;
 }
 
 #mySkillsPage {
