@@ -17,6 +17,29 @@ h3 {
     margin: 5px
 
 }
+a:link {
+    color:#3A7262;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color:#208283;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
 
 .background {
         position: fixed;
