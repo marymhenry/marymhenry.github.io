@@ -36,7 +36,7 @@ a:link {
   }
   
   a:active {
-    color: yellow;
+    color:#ba7f7c;
     background-color: transparent;
     text-decoration: underline;
   }
