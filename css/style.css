@@ -15,8 +15,8 @@ h3 {
     font-size: 25px;
     text-align: left;
     margin: 5px
-
 }
+
 a:link {
     color:#3A7262;
     background-color: transparent;
@@ -41,6 +41,52 @@ a:link {
     text-decoration: underline;
   }
 
+  #topSection {
+    color:#3A7262;
+    text-emphasis: bold;
+    margin-top: 300px;
+    justify-content: center;
+    text-align: center;
+    z-index: -1;
+}
+
+#introSection {
+    margin-top: 100px;
+    justify-content: center;
+}
+
+#introText {
+    color: #3A7262;
+    text-align: left;
+    align-items: center;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgba(255,255,255, 0.5);
+}
+
+.card-text {
+    color:#3A7262;
+    font-size: 18px;
+    text-align: center;
+}
+.card {
+    border-color: white;
+}
+
+.cardBody {
+    border: 5px solid #3A7262;
+}
+.list {
+    color:#3A7262;
+    font-size: 18px;
+    text-align: center;
+    line-height: 80%;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgba(255,255,255, 0.5);
+
+}
 .background {
         position: fixed;
         left: 0px;
@@ -161,7 +207,6 @@ a:link {
 }
 .footerGridArea {
     display: grid;
-    cursor: pointer;
 }
 
 #mySkillsPage {
