@@ -41,6 +41,11 @@ a:link {
     text-decoration: underline;
   }
 
+  .caseStudyBackground {
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgba(255,255,255, 0.5);
+  }
   #topSection {
     color:#3A7262;
     text-emphasis: bold;
@@ -48,6 +53,18 @@ a:link {
     justify-content: center;
     text-align: center;
     z-index: -1;
+}
+
+.sectionText {
+    color:#3A7262;
+    text-emphasis: bold;
+    justify-content: center;
+    text-align: center;
+}
+
+#skillsText {
+    justify-content: center;
+    align-items: center;
 }
 
 #introSection {
@@ -63,6 +80,12 @@ a:link {
     border-radius: 20px;
     background-color: rgba(255,255,255, 0.5);
 }
+#skillsText {
+    text-align: center;
+    align-items: center;
+    color:#3A7262;
+    font-size: 18px;
+}
 
 .card-text {
     color:#3A7262;
@@ -71,10 +94,15 @@ a:link {
 }
 .card {
     border-color: white;
+    margin: 0px 40px 0px 40px;
 }
 
 .cardBody {
     border: 5px solid #3A7262;
+    
+}
+.card-deck {
+    margin: 0px 20px 0px 20px;
 }
 .list {
     color:#3A7262;
